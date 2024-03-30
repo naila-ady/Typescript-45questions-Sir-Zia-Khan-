@@ -1,7 +1,2 @@
-let message="Hello World";
-console.log(message);
-
-
-
-
-
+let firstName:string="Eric"
+console.log(`"Hello ${firstName} ,would you like to learn some python today?"`);
