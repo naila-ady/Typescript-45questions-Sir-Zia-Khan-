@@ -1,15 +1,4 @@
-//saves the name
-let personName :string ="Mustafa";
-
-//print the name in small letters
-console.log(personName.toLowerCase());
-//print the name in capital letters
-console.log(personName.toUpperCase());
-//print the name with first capital and other small letters
-console.log(personName.charAt(0).toUpperCase()+personName.slice(1).toLowerCase());
-
-
-
-
-
-
+//printing person name
+let personName:string=("Hazrat Muhammad(P.B.U.H)");
+//calling person name with quote
+console.log(`${personName}once said," The seeking of knoweledge is obligatory for every muslim."`)
